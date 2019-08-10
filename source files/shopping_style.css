@@ -1,0 +1,224 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    background-image: url(images/sports6.jpg);
+    background-attachment: scroll;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.base {
+    height: 110vh;
+    overflow: auto;
+}
+.base::-webkit-scrollbar{
+	display:none;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 20vh;
+    align-items: center;
+}
+
+.title {
+    color: rgba(12, 3, 68, 0.85);
+    flex: 1;
+    font-size: 45px;
+}
+
+nav {
+    flex: 3;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: rgba(9, 111, 134, 0.898);
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#flex-end {
+    flex: 1;
+    align-content: flex-end;
+    color: rgb(23, 172, 83);
+}
+
+#login-text {
+    list-style: none;
+}
+
+.nav-link:hover {
+    background: rgb(54, 170, 170);
+    color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+}
+
+#flex-end:hover {
+    background: rgba(11, 114, 52, 0.972);
+    color: antiquewhite;
+}
+
+.mid {
+    width: 80%;
+    margin: auto;
+}
+
+.title-cart {
+    display: flex;
+    align-items: center;
+}
+
+.categories-title {
+    flex: 85%;
+    margin: 35px auto;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(87, 2, 2, 0.925);
+}
+
+.my-cart {
+    flex: 15%;
+    text-align: center;
+}
+
+.cart {
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid rgb(248, 78, 16);
+    background: none;
+    color: rgb(248, 78, 16);
+    height: 40px;
+    width: 135px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart:hover {
+    background: rgba(248, 78, 16, 0.966);
+    border: none;
+    color: antiquewhite;
+}
+
+.shop-table {
+    width: 100%;
+    height: 300px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: none;
+}
+
+td {
+    border-style: ridge;
+    border-width: medium;
+    border-color: rgb(98, 20, 20);
+}
+
+.item-image {
+    height: 175px;
+    width: 150px;
+}
+
+.item-brand {
+    font-weight: bold;
+    color: rgba(117, 19, 128, 0.952);
+}
+
+.item-info {
+    color: rgba(78, 5, 44, 0.952);
+    font-size: medium;
+}
+
+.item-price {
+    font-weight: bold;
+    color: rgb(151, 253, 48);
+}
+
+.add-to-cart {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    background: rgb(238, 167, 13);
+    border: none;
+    color: aliceblue;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-cart:hover {
+    background: rgba(231, 171, 40, 0.966);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.footer-area {
+    width: 100%;
+    min-height: 40vh;
+    background-color: black;
+}
+
+.footer-tab {
+    display: flex;
+}
+
+.logos {
+    flex: 1.4;
+    padding-top: .5%;
+    display: flex;
+    justify-items: flex-start;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.footer-text {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.footer-button {
+    flex: 1;
+    margin-left: 25px;
+}
+
+.go-to-top {
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+    border: none;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+}
